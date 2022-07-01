@@ -40,6 +40,15 @@ Haikai is a IOS application that lets users take or upload a photo and generate 
 
 <img src="https://i.imgur.com/ntdJNDC.jpg" width="200" height="400">
 
+3. After pressing 'Generate Poem' and selecting an Image, an API call will be sent and received from the Flask REST API, then the poem text will be displayed like below. Users will be given the option to save the Poem to the SQLite database
+
+<img src="https://i.imgur.com/RVTRfnb.png" width="200" height="400">
+
+4. If the 'Save Poem' button is pressed, the modal will update allowing users to enter a Poem Title for the saved Poem, after confirming the poem will appear on the main home page at the bottom of the scrollview
+
+<img src="https://i.imgur.com/NnMg7Oq.png" width="200" height="400">
+
+
 ## How Poems are Generated
 
 The process for generating each Haiku Poem is the following:
