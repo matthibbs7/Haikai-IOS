@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "pindar",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\19522\\Desktop\\ReactNative\\Waves\\wavy\\amplify\\backend\\api\\pindar\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authpindar"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-04-14T02:08:59.545Z",
+        "keyDescription": "guest"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}

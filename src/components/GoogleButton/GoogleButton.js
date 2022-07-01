@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 
 
-const GoogleButton = ({ onPress, text, type, bgColor, fgColor, icon }) => {
+const GoogleButton = ({ onPress, text, type, bgColor, fgColor, icon, iconColor }) => {
     return (
         <View style={styles.container}>
             <Pressable 
@@ -16,7 +16,7 @@ const GoogleButton = ({ onPress, text, type, bgColor, fgColor, icon }) => {
                     bgColor ? {backgroundColor: bgColor} : {},
                 ]]}>
                 
-                <FontAwesomeIcon size={20} icon={icon} style={{height: 40, width: 10, marginHorizontal:0}} color="#DD4D44"/>
+                <FontAwesomeIcon size={20} icon={icon} style={{height: 40, width: 10, marginHorizontal:0}} color={iconColor}/>
                 <Text style={[
                     styles.text, 
                     styles[`container_${text}`],
